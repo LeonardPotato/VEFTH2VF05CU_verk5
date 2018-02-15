@@ -1,7 +1,7 @@
 
 <link rel="stylesheet" href="/static/styles.css">
 <header>
-    <a href="http://127.0.0.1:8080/">
+    <a href="https://verk5.herokuapp.com/">
         <img class="headerlogo" src="/static/ticketlogo.png">
     </a>
 </header>
