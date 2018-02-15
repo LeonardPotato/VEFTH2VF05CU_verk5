@@ -16,8 +16,6 @@
     % for event in data['results']:
     <div class="event">
     <h2>{{event['eventDateName']}}</h2>
-    <h2>{{event['eventHallName']}}</h2>
-    <h2>{{event['dateOfShow'][:10]}}</h2>
     <a href="/event/{{i}}">
     <img src="{{event['imageSource']}}" alt="mynd">
     </a>
