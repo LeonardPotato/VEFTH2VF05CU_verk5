@@ -1,14 +1,20 @@
+
 header {
     position: fixed;
     width: 100%;
     height: 50px;
     background-color: white;
     margin-top:-80px;
-    margin-bottom: 10px;
     margin-left:-9px;
     display:block;
     border-bottom:3px solid lightgray;
     border-style: outset;
+}
+
+header h1{
+    text-align: center;
+    display:inline-block;
+
 }
 
 .headerlogo{
@@ -26,3 +32,76 @@ body{
     grid-template-columns: repeat(4, 1fr)
 }
 
+.eventpage{
+    margin-top:80px;
+    margin-left:30px;
+}
+.eventpage h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+
+.eventabout{
+    display:inline-block;
+    width:32em;
+    float:left;
+}
+.eventname{
+    font-weight: 900;
+}
+.eventpic{
+    min-width:32em;
+}
+.eventinfo{
+    background-color:red;
+    float:left;
+    width:13em;
+    border:black 2px solid;
+    margin-left:1em;
+    margin-top:4em;
+}
+.eventinfo h3{
+    text-align:center;
+}
+
+table.metadata td:fitst-child td{
+    padding-top: 4px;
+}
+
+table.metadata td:first-child{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-color: #969696;
+}
+table.metadata td{
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: top;
+    padding: 8px 10px 8px 0;
+    border-top: 1px solid #e1e1e1;
+}
+
+table.eventdate td{
+    border-top: 1px solid #e1e1e1;
+    padding: 8px 10px 8px 0;
+}
+
+
+
+table.eventdate td:fitst-child td{
+    padding-top: 1px;
+}
+
+table.eventdate td{
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: top;
+    padding: 8px 10px 8px 0;
+    border-top: 1px solid #e1e1e1;
+}
+
+.dagsetningtext{
+    margin:3px;
+}
